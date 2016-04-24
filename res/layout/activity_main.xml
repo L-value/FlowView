@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myandroid="http://schemas.android.com/apk/res/com.example.flowview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    tools:context="com.example.flowview.MainActivity" >
+	<com.example.flowview.FlowView 
+	    android:id="@+id/fw"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	   
+	    myandroid:size="2"/>
+
+</RelativeLayout>
